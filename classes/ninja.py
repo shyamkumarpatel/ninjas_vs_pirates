@@ -55,5 +55,3 @@ class Ninja:
                 print("Not enough throwing stars!")
                 print("\n!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n")
                 self.use_item(pirate)
-                
-        return self
