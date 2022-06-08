@@ -5,6 +5,9 @@ class Ninja:
         self.strength = 10
         self.speed = 5
         self.health = 100
+        self.throwing_stars = 0
+        self.health_potions = 0
+        self.poison = 0
     
     def show_stats( self ):
         print(f"Name: {self.name}\nStrength: {self.strength}\nSpeed: {self.speed}\nHealth: {self.health}\n")
